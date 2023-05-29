@@ -1,0 +1,91 @@
+<!-- Swiper -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is A fucking Hello World Website.........</title>
+
+    <!-- #swiper-css-library -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- #swiper-js-library -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <button onclick="openSliderModal()">Open</button>
+    <!-- #slider-modal-element -->
+    <div id="mySliderModal" class="modal">
+        <!-- #modal-close-btn -->
+        <span class="close" onclick="closeSliderModal()">&times;</span>
+        <!-- ##modal-close-btn -->
+        <!-- <==============> -->
+        <!-- #modal-overlay -->
+        <div class="overlay"></div>
+        <!-- #modal-overlay-popup -->
+        <div class="popup">
+            <div class="swiper-container gallery-top" style="overflow:hidden;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="500px" width="100%" />
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+
+            <div class="swiper-container gallery-thumbs" style="overflow:hidden;">
+                <div class="swiper-wrapper" style="justify-content: center;">
+                    <div class="swiper-slide ">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://placekitten.com/g/1200/800" height="64" width="100%" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+/* Style the modal */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  user-select: none;
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black w/ opacity */
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  user-select: none;
+  font-weight: bold;
+  z-index: 2;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Style the popup */
+.popup {
+  margin: auto;
+  padding-bottom: 0;
+  width: 100%;
+  user-select: none;
+  max-width: 1000px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all;
+  transition-duration: 200ms;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-top {
+  height: 80%;
+  width: 100%;
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide > img {
+  object-fit: cover;
+}
+
+.swiper-button-next {
+  scale: 50%;
+  color: #fff;
+}
+
+.swiper-button-prev {
+  scale: 50%;
+  color: #fff;
+}
